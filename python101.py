@@ -36,13 +36,13 @@ def my_function(x):
     print(x)
     return x
 
-b = my_function(x)
-print("b equals {}".format(b))
-#Who wants to win a prize?  What will the following line print?
-print(x)
+# b = my_function(x)
+# print("b equals {}".format(b))
+# #Who wants to win a prize?  What will the following line print?
+# print(x)
 
-b = my_function(x)
-print("b equals {}".format(b))
+# b = my_function(x)
+# print("b equals {}".format(b))
 
 
 my_name = eval(input("What is your name?"))
