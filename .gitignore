@@ -1,4 +1,11 @@
 # Byte-compiled / optimized / DLL files
+**/*.key
+**/*.pem
+**/*.crt
+**/*.cer
+**/*.der
+**/*.pfx
+**/*.p12
 __pycache__/
 *.py[cod]
 *$py.class
