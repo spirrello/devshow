@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 
 
@@ -45,5 +45,19 @@ def my_function(x):
 # print("b equals {}".format(b))
 
 
-my_name = eval(input("What is your name?"))
+my_name = raw_input("What is your name? ")
 print(my_name)
+
+
+
+
+try:
+    y = x + my_name
+    #y = x + 1000
+
+except Exception as e:
+    
+    print("\nError: {}".format(e))
+    #raise
+else:
+    print("We're in the else segment of the try statement. Y is {}".format(y))
